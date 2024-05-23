@@ -40,11 +40,10 @@ function aceprensa_posts_options_page()
 }
 
 // Opciones por defecto
-
 $default_settings = array(
     'aceprensa_site_url' => 'https://www.aceprensa.com',
     'aceprensa_username' => 'aceprensa_posts',
-    'aceprensa_pasword' => 'qN8M WS53 bfF2 vkwW BOrk tSaD'
+    'aceprensa_password' => 'qN8M WS53 bfF2 vkwW BOrk tSaD'
 );
 
 // Agrega una acción para cargar la página de ajustes.
@@ -65,7 +64,7 @@ add_action('admin_init', 'aceprensa_posts_register_settings');
 
 // Aplica las opciones por defecto del plugin
 foreach ($default_settings as $option => $setting) {
-    apply_filters( 'default_option_{$option}', $setting, '', true );
+    add_option( $option, $setting );
 }
 
 // Muestra la página de ajustes.
