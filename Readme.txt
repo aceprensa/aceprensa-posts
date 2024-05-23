@@ -7,22 +7,29 @@ Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Un plugin para obtener los últimos artículos publicados en Aceprensa.
+Obtén en tu sitio web los últimos artículos publicados en el portal web de Aceprensa, medio de comunicación especializado en artículos de análisis.
 
 == Description ==
 
-Este plugin permite al usuario añadir un shortcode a su página de WordPress para mostrar publicaciones de Aceprensa.
+Este plugin permite incluír en tu página web los últimos artículos publicados en la web de Aceprensa directamente en tu sitio web a través del shortcode [aceprensa-posts].
 
-Las publicaciones que se muestren dependen de la categoría seleccionada en el menú de administración.
+Los artículos se obtienen mediante la API de WordPress. Para garantizar la seguridad del acceso a la API en el sitio web de Aceprensa, el plugin tiene preconfigurado un usuario y una contraseña de aplicación.
 
-Es necesaria una cuenta de Aceprensa par el correcto uso del plugin.
+Por defecto el plugin muestra los últimos artículos publicados en la web, pero puedes seleccionar qué artículos quieres que aparezcan filtrando por aquellas categorías que te interesen en el menú de configuración del plugin.
 
+Aceprensa Posts obtiene la siguiente información de los artículos:
+– Imagen destacada.
+– Fecha de publicación y autor de la entrada.
+– Extracto de la entrada.
+– Enlace al artículo en la página de Aceprensa.
+
+Aceprensa Posts permite incluír los artículos de Aceprensa en tu sitio web de forma totalmente gratuita. Si eres una institución o empresa que disponga de una suscripción al servicio Aceprensa a un click, puedes configurar tus propias credenciales para que los usuarios de tu organización al acceder al sitio también puedan acceder a los contenidos exclusivos para suscriptores.
 
 == Frequently Asked Questions ==
 
-= ¿Cuál será el nombre de usuario? =
+= ¿Cuál es mi nombre de usuario y contraseña? =
 
-El nombre de usuario es el mismo que uses en Aceprensa.
+No es necesario disponer de un nombre de usuario para obtener los artículos de Aceprensa en tu sitio web.
 
 = ¿Cómo selecciono categorías? =
 
